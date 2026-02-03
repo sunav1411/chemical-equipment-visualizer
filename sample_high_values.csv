@@ -1,0 +1,5 @@
+Equipment Name,Type,Flowrate,Pressure,Temperature
+Reactor X,Reactor,120,55,250
+Reactor Y,Reactor,130,60,260
+Valve X,Valve,80,40,200
+Pump X,Pump,100,50,220
