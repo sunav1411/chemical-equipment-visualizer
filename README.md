@@ -1,3 +1,31 @@
+## Repository Structure Note (Important)
+
+Due to GitHub web upload limitations, project files appear at the root level.
+
+Logical structure of the project is as follows:
+
+- BACKEND (Django REST API)
+  - manage.py
+  - settings.py
+  - urls.py
+  - api/
+    - models.py
+    - views.py
+    - serializers.py
+
+- WEB FRONTEND (React)
+  - src/
+    - App.js
+    - index.js
+  - public/
+  - package.json
+
+- DESKTOP APP (PyQt5)
+  - app.py
+
+All components were developed and tested locally with this structure.
+Demo videos demonstrate correct working of each module.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
